@@ -1,0 +1,362 @@
+/* ==========================================
+   Modern AI Using PyTorch
+   Professional Book Website Styles
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background:#f4f6f9;
+    color:#222;
+    line-height:1.7;
+}
+
+/* ---------- Container ---------- */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* ---------- Header ---------- */
+
+header{
+    background:linear-gradient(135deg,#081c3c,#0d6efd);
+    color:#fff;
+    padding:70px 30px;
+    text-align:center;
+    box-shadow:0 6px 18px rgba(0,0,0,.15);
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+header p{
+    max-width:800px;
+    margin:auto;
+    font-size:1.15rem;
+    opacity:.95;
+}
+
+/* ---------- Book Section ---------- */
+
+.book{
+    max-width:1200px;
+    margin:60px auto;
+    background:#fff;
+    display:flex;
+    gap:60px;
+    align-items:center;
+    padding:45px;
+    border-radius:18px;
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+.book img{
+    width:340px;
+    border-radius:12px;
+    transition:.4s;
+    box-shadow:0 12px 30px rgba(0,0,0,.25);
+}
+
+.book img:hover{
+    transform:scale(1.04) rotate(-1deg);
+}
+
+.book div{
+    flex:1;
+}
+
+.book h2{
+    font-size:2rem;
+    margin-bottom:20px;
+    color:#0d47a1;
+}
+
+.book h3{
+    color:#e53935;
+    font-size:2.2rem;
+    margin:25px 0;
+}
+
+.book ul{
+    margin-left:25px;
+    margin-top:15px;
+}
+
+.book li{
+    margin-bottom:12px;
+    font-size:17px;
+}
+
+/* ---------- Buy Button ---------- */
+
+.buy{
+    display:inline-block;
+    margin-top:25px;
+    padding:16px 40px;
+    border-radius:50px;
+    background:#ff9800;
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+    box-shadow:0 6px 15px rgba(255,152,0,.35);
+}
+
+.buy:hover{
+    background:#f57c00;
+    transform:translateY(-3px);
+}
+
+/* ---------- Forms ---------- */
+
+form{
+    max-width:750px;
+    margin:60px auto;
+    background:#fff;
+    padding:45px;
+    border-radius:15px;
+    box-shadow:0 12px 30px rgba(0,0,0,.1);
+}
+
+form h2{
+    margin-bottom:30px;
+    color:#0d47a1;
+}
+
+input,
+textarea,
+select{
+
+    width:100%;
+    padding:15px 18px;
+    margin-bottom:20px;
+    border:1px solid #d7d7d7;
+    border-radius:8px;
+    font-size:16px;
+    transition:.3s;
+    background:#fafafa;
+}
+
+textarea{
+    min-height:140px;
+    resize:vertical;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    outline:none;
+    border-color:#0d6efd;
+    background:#fff;
+    box-shadow:0 0 8px rgba(13,110,253,.15);
+
+}
+
+button{
+
+    width:100%;
+    padding:16px;
+    background:#0d6efd;
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#0849b8;
+
+}
+
+/* ---------- Cards ---------- */
+
+.card{
+
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    margin:30px 0;
+
+}
+
+/* ---------- Footer ---------- */
+
+footer{
+
+    margin-top:80px;
+    background:#081c3c;
+    color:#fff;
+    text-align:center;
+    padding:30px;
+
+}
+
+footer a{
+
+    color:#fff;
+    text-decoration:none;
+
+}
+
+/* ---------- Success Page ---------- */
+
+.success{
+
+    text-align:center;
+    max-width:700px;
+    margin:80px auto;
+    background:#fff;
+    padding:50px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+
+.success h1{
+
+    color:#2e7d32;
+    margin-bottom:20px;
+
+}
+
+.success p{
+
+    margin-bottom:30px;
+    font-size:18px;
+
+}
+
+/* ---------- Utilities ---------- */
+
+.text-center{
+    text-align:center;
+}
+
+.mt-20{
+    margin-top:20px;
+}
+
+.mt-40{
+    margin-top:40px;
+}
+
+.mb-40{
+    margin-bottom:40px;
+}
+
+/* ---------- Responsive ---------- */
+
+@media(max-width:992px){
+
+.book{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+.book img{
+
+    width:280px;
+
+}
+
+.book ul{
+
+    text-align:left;
+
+}
+
+header h1{
+
+    font-size:2.4rem;
+
+}
+
+}
+
+@media(max-width:768px){
+
+header{
+
+    padding:50px 20px;
+
+}
+
+header h1{
+
+    font-size:2rem;
+
+}
+
+.book{
+
+    padding:25px;
+
+}
+
+form{
+
+    padding:25px;
+
+}
+
+.buy{
+
+    width:100%;
+    text-align:center;
+
+}
+
+}
+
+@media(max-width:480px){
+
+header h1{
+
+    font-size:1.7rem;
+
+}
+
+.book h2{
+
+    font-size:1.5rem;
+
+}
+
+.book h3{
+
+    font-size:1.8rem;
+
+}
+
+body{
+
+    font-size:15px;
+
+}
+
+}
