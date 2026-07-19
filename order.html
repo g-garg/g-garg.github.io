@@ -1,46 +1,132 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
 
-<title>Order Book</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="assets/css/style.css">
+<title>
+Complete Your Order | Modern AI Using PyTorch
+</title>
+
+
+<link rel="stylesheet"
+href="assets/css/style.css">
+
 
 </head>
 
+
 <body>
 
-<h1>Book Order</h1>
+
+<header>
+
+<h1>
+📚 Complete Your Order
+</h1>
+
+<p>
+Get your copy of <b>Modern AI Using PyTorch</b>
+</p>
+
+</header>
+
+
+
+<section class="card order-card">
+
+
+<a href="payment.html" class="back-btn">
+← Back to Payment
+</a>
+
+
+
+<div class="order-title">
+
+
+<h2>
+Shipping Details
+</h2>
+
+
+<p>
+Please provide your delivery information.
+Your book will be shipped after payment verification.
+</p>
+
+
+</div>
+
+
+
 
 <form id="orderForm">
+
+
+
+<label>
+Full Name
+</label>
 
 <input
 type="text"
 name="name"
-placeholder="Full Name"
+placeholder="Enter your full name"
 required>
+
+
+
+<label>
+Email Address
+</label>
 
 <input
 type="email"
 name="email"
-placeholder="Email"
+placeholder="Enter your email"
 required>
+
+
+
+
+<label>
+Mobile Number
+</label>
 
 <input
 type="text"
 name="phone"
-placeholder="Phone"
+placeholder="Enter your phone number"
 required>
+
+
+
+
+<label>
+Complete Address
+</label>
 
 <textarea
 name="address"
-placeholder="Address"
-required>
-</textarea>
+placeholder="House No, Street, Area"
+required></textarea>
+
+
+
+
+<div class="two-column">
+
+
+<div>
+
+<label>
+City
+</label>
 
 <input
 type="text"
@@ -48,17 +134,45 @@ name="city"
 placeholder="City"
 required>
 
+</div>
+
+
+
+<div>
+
+<label>
+State
+</label>
+
 <input
 type="text"
 name="state"
 placeholder="State"
 required>
 
+</div>
+
+
+</div>
+
+
+
+
+<label>
+Pincode
+</label>
+
 <input
 type="text"
 name="pincode"
-placeholder="Pincode"
+placeholder="6 digit pincode"
 required>
+
+
+
+<label>
+Quantity
+</label>
 
 <input
 type="number"
@@ -66,7 +180,20 @@ name="quantity"
 value="1"
 min="1">
 
-<!-- ADD UPI TRANSACTION ID HERE -->
+
+
+<div class="payment-box">
+
+
+<h3>
+💳 Payment Confirmation
+</h3>
+
+
+<p>
+Enter the UPI transaction ID after completing payment.
+</p>
+
 
 <input
 type="text"
@@ -74,15 +201,41 @@ name="transaction"
 placeholder="UPI Transaction ID"
 required>
 
-<button>
 
-Place Order
+</div>
+
+
+
+
+<button type="submit">
+
+🚀 Place Order
 
 </button>
 
+
+
 </form>
 
+
+
+</section>
+
+
+
+<footer>
+
+<p>
+© 2026 Ginni Garg |
+Modern AI Using PyTorch
+</p>
+
+</footer>
+
+
+
 <script src="assets/js/app.js"></script>
+
 
 </body>
 
