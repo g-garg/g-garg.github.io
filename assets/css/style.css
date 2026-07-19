@@ -513,39 +513,4 @@ font-size:16px;
 
 }
 
-/* Force UPI QR responsive size */
-
-section.payment-card img.upi-image {
-
-    width: 160px !important;
-    height: 160px !important;
-
-    max-width: 160px !important;
-    max-height: 160px !important;
-
-    object-fit: contain;
-
-    display: block;
-
-    margin: 20px auto;
-
-}
-
-
-/* Mobile devices */
-
-@media(max-width:480px){
-
-    section.payment-card img.upi-image {
-
-        width: 130px !important;
-        height: 130px !important;
-
-        max-width:130px !important;
-        max-height:130px !important;
-
-    }
-
-}
-
 }
