@@ -359,4 +359,193 @@ body{
 
 }
 
+/* ==========================
+   Payment Page
+========================== */
+
+
+.payment-card{
+
+max-width:750px;
+
+margin:60px auto;
+
+padding:45px;
+
+}
+
+
+
+.payment-card .back-btn{
+
+display:inline-block;
+
+margin-bottom:30px;
+
+}
+
+
+
+.payment-card h2{
+
+color:#0d47a1;
+
+font-size:2rem;
+
+margin-bottom:15px;
+
+}
+
+
+
+.payment-desc{
+
+font-size:17px;
+
+color:#666;
+
+margin-bottom:25px;
+
+}
+
+
+
+.upi-image {
+
+    width: 200px;
+    max-width: 80%;
+    height: auto;
+
+    display: block;
+    margin: 25px auto;
+
+    object-fit: contain;
+
+    border-radius: 12px;
+
+    padding: 8px;
+
+    background: #ffffff;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+}
+
+
+@media(max-width:600px){
+
+    .upi-image {
+
+        width: 150px;
+        max-width: 70%;
+
+    }
+
+}
+
+
+
+.upi-details{
+
+background:#f4f8ff;
+
+padding:20px;
+
+border-radius:12px;
+
+margin:20px auto;
+
+max-width:350px;
+
+}
+
+
+
+.upi-details h3{
+
+color:#0d6efd;
+
+}
+
+
+
+.payment-steps{
+
+text-align:left;
+
+background:#f8f9fa;
+
+padding:25px;
+
+border-radius:15px;
+
+margin:35px 0;
+
+}
+
+
+
+.payment-steps h3{
+
+color:#0d47a1;
+
+margin-bottom:15px;
+
+}
+
+
+
+.payment-steps ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+
+
+.payment-steps li{
+
+padding:8px 0;
+
+font-size:16px;
+
+}
+
+/* Force UPI QR responsive size */
+
+section.payment-card img.upi-image {
+
+    width: 160px !important;
+    height: 160px !important;
+
+    max-width: 160px !important;
+    max-height: 160px !important;
+
+    object-fit: contain;
+
+    display: block;
+
+    margin: 20px auto;
+
+}
+
+
+/* Mobile devices */
+
+@media(max-width:480px){
+
+    section.payment-card img.upi-image {
+
+        width: 130px !important;
+        height: 130px !important;
+
+        max-width:130px !important;
+        max-height:130px !important;
+
+    }
+
+}
+
 }
